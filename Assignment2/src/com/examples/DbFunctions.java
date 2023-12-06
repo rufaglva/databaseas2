@@ -8,7 +8,6 @@ public class DbFunctions {
     private static final String user = "postgres";
     private static final String pass = "08081998";
 
-
     public Connection connect_to_db() {
         Connection conn = null;
         try {
